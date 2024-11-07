@@ -1,0 +1,44 @@
+.podium-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #f9f9f9;
+  }
+  
+  .podium {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .podium-step {
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .podium-first {
+    background-color: #FFD700; /* Gold */
+    height: 200px;
+    transform: translateY(-20px);
+  }
+  
+  .podium-second {
+    background-color: #C0C0C0; /* Silver */
+    height: 170px;
+  }
+  
+  .podium-third {
+    background-color: #CD7F32; /* Bronze */
+    height: 150px;
+  }
+  
+ 
